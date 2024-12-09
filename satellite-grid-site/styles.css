@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #D3D3D3;
+}
+
+.headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #B90005;
+  padding: 20px;
+}
+
+.headline h1 {
+  color: #D3D3D3;
+  font-family: 'Bungee Shade', serif;
+  font-size: 36px;
+  text-align: center;
+  font-weight: 400;
+  margin: 0;
+}
+
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  padding: 20px;
+}
+
+.photo-grid img {
+  width: calc(33.333% - 80px);
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: cover;
+}
